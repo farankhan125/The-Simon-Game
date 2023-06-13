@@ -1,2 +1,2 @@
-# TheSimonGame.github.io
+# The-Simon-Game
 The Simon Game
