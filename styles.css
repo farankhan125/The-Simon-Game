@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #181826;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    color: #ffc794;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.main1, .main2 {
+    text-align: center;
+}
+
+.main1 {
+    margin-top: 95px;
+}
+
+.main2 {
+    margin-top: 38px;
+}
+
+.div-sub1, .div-sub2, .div-sub3, .div-sub4 {
+    width: 170px;
+    height: 160px;
+    border: solid black 6px;
+    display: inline-block;
+    border-radius: 30px;
+}
+
+.div-sub1 {
+    background-color: green;
+    margin-right: 35px;
+}
+
+.div-sub2 {
+    background-color: red;
+    margin-left: 35px;
+}
+
+.div-sub3 {
+    background-color: yellow;
+    margin-right: 35px;
+}
+
+.div-sub4 {
+    background-color: blue;
+    margin-left: 35px;
+}
+
+/* -------------------------------------Footer CSS------------------------------------- */
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+p {
+    color: #ffc794;
+    font-size: 9px;
+}
+
+/* -------------------------------------JQuery CSS------------------------------------- */
+
+.effect {
+    opacity: 50%;
+}
+
+.clicking-green {
+    background-color: #3c813c;
+    box-shadow: 0px 0px 10px 5px #3c813c;
+}
+
+.clicking-red {
+    background-color: #ff4c4c;
+    box-shadow: 0px 0px 10px 5px #ff4c4c;
+}
+
+.clicking-yellow {
+    background-color: #ffff5a;
+    box-shadow: 0px 0px 10px 5px #ffff5a;
+}
+
+.clicking-blue {
+    background-color: #4b4bff;
+    box-shadow: 0px 0px 10px 5px #4b4bff;
+}
+
+.game-over {
+    background-color: red;
+}
+
+.win {
+    background-color: green;
+}
