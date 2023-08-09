@@ -11,7 +11,7 @@ var correctSound = new Audio("sounds/correct.mp4")
 
 // The Game will start by clicking any key in the keyboard (BELOW CODE PURPOSE)
 
-$(document).one("keydown", start)
+$(document).one("keydown touchstart", start)
 
 
 // Event listeners are added to all four boxes in the game (BELOW CODE PURPOSE)
@@ -116,7 +116,7 @@ function gameOver() {
         $("body").removeClass("game-over")
     },200)
     $("h1").text("Game Over! Press any key to start again")
-    $(document).one("keydown", start)
+    $(document).one("keydown touchstart", start)
 }
 
 function nextLevel() {
